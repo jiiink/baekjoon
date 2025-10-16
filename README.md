@@ -31,3 +31,46 @@
 # 핵심 아이디어: 큰 단위 동전부터 사용
 ```
 - 자주 쓰는 코드를 templates/ 폴더에 따로 보관 (예: binary_search_template.py, stack_template.py)
+
+
+```
+baekjoon/
+│
+├── README.md                # 공부 기록 or 회고 정리
+├── requirements.txt         # (선택) 자주 쓰는 라이브러리 관리용
+│
+├── solved_class/            # 백준 Class별 분류 (권장)
+│   ├── class1/
+│   │   ├── 1000_A+B.py
+│   │   ├── 2557_HelloWorld.py
+│   │   └── README.md
+│   ├── class2/
+│   │   ├── 1920_수찾기.py
+│   │   ├── 2164_카드2.py
+│   │   └── README.md
+│   └── ...
+│
+├── by_algorithm/            # 알고리즘 유형별 분류 (선택)
+│   ├── dp/
+│   │   ├── 1463_1로만들기.py
+│   │   ├── 2579_계단오르기.py
+│   │   └── README.md
+│   ├── graph/
+│   │   ├── 1260_DFS와BFS.py
+│   │   ├── 2606_바이러스.py
+│   │   └── README.md
+│   └── ...
+│
+├── templates/               # 자주 쓰는 코드 스니펫
+│   ├── bfs_template.py
+│   ├── dfs_template.py
+│   ├── dijkstra_template.py
+│   └── ...
+│
+└── utils/                   # 공통 함수/입출력 관리
+    ├── fast_io.py
+    ├── math_utils.py
+    └── ...
+
+
+```
