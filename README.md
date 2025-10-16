@@ -41,6 +41,13 @@ Solve: 2667 단지번호붙이기 (DFS)
 
 ```
 
+태그 활용 (옵션)
+
+중요한 문제는 커밋 후 
+`git tag 1920_binary_search`
+
+나중에 골라서 복습 가능
+
 
 ```
 baekjoon/
