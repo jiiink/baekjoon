@@ -28,6 +28,7 @@ def main():
 
 def solve():
     # 여기에 풀이 로직 작성
+    return
 
 if __name__ == "__main__":
     # 테스트 입력이 있을 경우 아래 주석 해제
