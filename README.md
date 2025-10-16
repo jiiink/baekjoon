@@ -33,6 +33,15 @@
 - 자주 쓰는 코드를 templates/ 폴더에 따로 보관 (예: binary_search_template.py, stack_template.py)
 
 
+커밋 정리
+```
+Solve: 11047 동전0 (Greedy)
+Solve: 1920 수찾기 (Binary Search)
+Solve: 2667 단지번호붙이기 (DFS)
+
+```
+
+
 ```
 baekjoon/
 │
