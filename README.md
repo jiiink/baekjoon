@@ -33,7 +33,7 @@
 - 자주 쓰는 코드를 templates/ 폴더에 따로 보관 (예: binary_search_template.py, stack_template.py)
 
 
-커밋 정리
+### 커밋 정리
 ```
 Solve: 11047 동전0 (Greedy)
 Solve: 1920 수찾기 (Binary Search)
@@ -41,14 +41,28 @@ Solve: 2667 단지번호붙이기 (DFS)
 
 ```
 
-태그 활용 (옵션)
+### 태그 활용 (옵션)
 
-중요한 문제는 커밋 후 
-`git tag 1920_binary_search`
+⚙️ 2. 커밋 & 태그 워크플로우
+✅ (1) 새 문제 푼 뒤 커밋
+```bash
+git add 1920_수_찾기.py
+git commit -m "solve: BOJ 1920 수 찾기 (binary search / set)"
 
-나중에 골라서 복습 가능
+```
+✅ (2) 태그 붙이기
+```bash
+git tag -a boj/1920 -m "BOJ 1920 수 찾기"
+```
+
+✅ (3) GitHub에 태그 푸시
+```bash
+git push origin main
+git push origin boj/1920
+```
 
 
+### 디렉토리 구조조
 ```
 baekjoon/
 │
