@@ -4,7 +4,7 @@
 # 핵심 아이디어: 큰 리스트에서 탐색 or 효율적인 자료구조
 
 import sys
-input = sys.stdin.readline
+input = sys.stdin.readline 
 
 def main():
     n1 = int(input().strip())
