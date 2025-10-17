@@ -62,7 +62,7 @@ git push origin boj/1920
 ```
 
 
-### 디렉토리 구조조
+### 디렉토리 구조
 ```
 baekjoon/
 │
