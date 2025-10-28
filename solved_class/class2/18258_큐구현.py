@@ -1,6 +1,6 @@
 # 18258_큐구현.py
 # https://www.acmicpc.net/problem/18258
-# 알고리즘: 
+# 알고리즘: deque
 # 핵심 아이디어: 시간초과 주의 (자료구조, 입출력)
 
 import sys
