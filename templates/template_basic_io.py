@@ -12,7 +12,7 @@ def main():
     # 입력 받기 예시 -----------------------------
     # 한 줄에 정수 하나
     n = int(input().strip())
-
+ 
     # 한 줄에 여러 정수
     arr = list(map(int, input().split()))
 
