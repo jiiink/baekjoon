@@ -31,7 +31,9 @@ def main():
     
 
     # print(graph)
-    print(DFS(graph, start))
+    # print(DFS(graph, start))
+    for i in DFS(graph, start):
+        print()
     print(BFS(graph, start))
     
 
