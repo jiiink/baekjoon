@@ -8,7 +8,7 @@ import sys
 # 빠른 입력 (input() 대신 사용)
 input = sys.stdin.readline
 
-def main():  
+def main(): 
     # 입력 받기 예시 -----------------------------
     # 한 줄에 정수 하나
     n = int(input().strip())
