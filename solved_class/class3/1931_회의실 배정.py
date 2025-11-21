@@ -4,7 +4,7 @@
 # 핵심 아이디어: 
 
 # Windows 버전
-# Windows version
+# Windows version 2
 import sys
 
 # 빠른 입력 (input() 대신 사용)
