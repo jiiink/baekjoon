@@ -4,14 +4,17 @@
 # 핵심 아이디어: 
 
 import sys
+import math
 
 # 빠른 입력 (input() 대신 사용)
 input = sys.stdin.readline
 
 def main(): 
 
-    n = int(input().strip())
- 
+    a, b = map(int, input().split())
+
+    print(math.gcd(a, b))
+    print(a * b // math.gcd(a, b))
     
 
 if __name__ == "__main__":
