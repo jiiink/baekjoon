@@ -17,9 +17,12 @@
 ---
 
 ## 🧩 알고리즘별 정리
-- Greedy: 11047, 1931
-- DP: 1463, 2579
+- Binary Search: 1920
+- DFS / BFS: 1260
+- Greedy: 11047
+- DP: 2579, 9095
 - Graph: 1260, 2606
+- Brute Force: 2231
 
 
 ## 정리 팁
