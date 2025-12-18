@@ -12,6 +12,7 @@
 - DP: 2579, 9095
 - Graph: 1260, 2606
 - Brute Force: 2231
+- Backtracking: 15649
 
 
 ## 정리 팁
