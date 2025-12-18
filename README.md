@@ -6,13 +6,15 @@
 **코딩테스트 대비용 정리**  
 
 ## 🧩 알고리즘별 정리
+- Backtracking: 15649
 - Binary Search: 1920
-- DFS / BFS: 1260
-- Greedy: 11047
+- Brute Force: 2231
+- BFS / DFS: 1260
 - DP: 2579, 9095
 - Graph: 1260, 2606
-- Brute Force: 2231
-- Backtracking: 15649
+- Greedy: 11047
+
+
 
 
 ## 정리 팁
