@@ -17,13 +17,24 @@
 
 
 ## 🧩 알고리즘별 정리
-- Backtracking: 15649
+- Backtracking: 15649 
 - Binary Search: 1920
 - Brute Force: 2231
 - BFS / DFS: 1260
 - DP: 2579, 9095
 - Graph: 1260, 2606
 - Greedy: 11047
+
+| 알고리즘 | 문제 | 비고 |
+|---------|------|------|
+| Backtracking | [15649](https://www.acmicpc.net/problem/15649) | 순열 생성 |
+| Binary Search | [1920](https://www.acmicpc.net/problem/1920) | set / 이분 탐색 |
+| Brute Force | [2231](https://www.acmicpc.net/problem/2231) | 분해합 |
+| BFS / DFS | [1260](https://www.acmicpc.net/problem/1260) | 기본 그래프 탐색 |
+| DP | [2579](https://www.acmicpc.net/problem/2579), [9095](https://www.acmicpc.net/problem/9095) | 점화식 설계 |
+| Graph | [2606](https://www.acmicpc.net/problem/2606) | 연결 요소 |
+| Greedy | [11047](https://www.acmicpc.net/problem/11047) | 큰 단위부터 사용 |
+
 
 
 
