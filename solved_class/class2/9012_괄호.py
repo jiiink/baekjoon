@@ -12,37 +12,21 @@ def main():
 
     n = int(input().strip())
 
-    parenthesis_stack = []
- 
-    answer = []
-
-    # c = input().split()
-
-    # print(c)
-
     for _ in range(n):
-        parenthesis_stack = []
-        ps = input().strip()
-        # print(ps)
-        for p in ps:
-            if p == "(":
-                parenthesis_stack.append(p)
-            elif p == ")":
-                if not parenthesis_stack:
-                    parenthesis_stack.append(0)
-                    break
-                parenthesis_stack.pop()
-            # print(f'stack: {parenthesis_stack}')
-        if not parenthesis_stack:
-            answer.append("YES")
-        else:
-            answer.append("NO")
-        # print(f'answer: {answer}')
+        string = input().strip()
+        print(isVPS(string))
 
+def isVPS(string):
+    stack = []
+    for char in string:
+        if char == "(":
+            stack.append(char)
+        elif char == ")":
+            if not stack:
+                return "NO"
+            stack.pop()
 
-    # print(answer)
-    for a in answer:
-        print(a)
+    return "YES" if not stack else "NO"
         
 
 if __name__ == "__main__":
