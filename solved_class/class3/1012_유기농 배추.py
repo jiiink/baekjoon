@@ -47,7 +47,7 @@ def bfs(start_y, start_x, field, N, M):
     while queue:
         y, x = queue.popleft()
 
-        for i in range(4): # 상하좌우 한 칸씩 이동
+        for i in range(4): # 상하좌우 인접한 노드 큐에 넣기
             ny = y + dy[i]
             nx = x + dx[i]
 
