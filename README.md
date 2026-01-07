@@ -25,7 +25,7 @@
 | Binary Search | [1920](https://www.acmicpc.net/problem/1920) | 정렬된 데이터에서 탐색 범위를 절반씩 줄여 탐색 |
 | Brute Force | [2231](https://www.acmicpc.net/problem/2231) | 가능한 모든 경우를 직접 검사 |
 | BFS / DFS | [1260](https://www.acmicpc.net/problem/1260), [1012](https://www.acmicpc.net/problem/1012) | 그래프/트리에서 너비·깊이 우선 탐색 |
-| DP | [2579](https://www.acmicpc.net/problem/2579), [9095](https://www.acmicpc.net/problem/9095), [1463](https://www.acmicpc.net/problem/1463) | 이전 계산 결과를 재사용해 중복 연산 제거 |
+| DP | [2579](https://www.acmicpc.net/problem/2579), [9095](https://www.acmicpc.net/problem/9095), [1463](https://www.acmicpc.net/problem/1463), [11726](https://www.acmicpc.net/problem/11726), [11727](https://www.acmicpc.net/problem/11727) | 이전 계산 결과를 재사용해 중복 연산 제거 |
 | Graph | [2606](https://www.acmicpc.net/problem/2606) | 노드와 간선 관계를 기반으로 문제 해결 |
 | Greedy | [11047](https://www.acmicpc.net/problem/11047) | 매 순간 최선의 선택을 하는 알고리즘 |
 
