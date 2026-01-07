@@ -31,7 +31,7 @@ def main():
                     bfs(y, x, field, N, M)
                     count += 1
 
-        print(count)
+        print(count) 
     
 
 
